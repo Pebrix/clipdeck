@@ -6,12 +6,31 @@
 //
 
 import SwiftUI
+#if canImport(AppKit)
+import AppKit
+#endif
+
+#if canImport(AppKit)
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        NSApp.setActivationPolicy(.accessory)
+    }
+}
+#endif
 
 @main
 struct clipdeckApp: App {
+    @StateObject private var store = ClipdeckStore()
+    #if canImport(AppKit)
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    #endif
+
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("Clipdeck", systemImage: "scissors") {
             ContentView()
+                .environmentObject(store)
+                .frame(width: 360, height: 420)
         }
+        .menuBarExtraStyle(.window)
     }
 }
