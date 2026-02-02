@@ -42,14 +42,14 @@
 
 ### Download
 
-1. Go to the [Releases](https://github.com/YOUR_USERNAME/clipdeck/releases) page
+1. Go to the [Releases](https://github.com/Pebrix/clipdeck/releases) page
 2. Download `clipdeck.dmg`
 3. Open the DMG and drag ClipDeck to Applications
 
 ### Build from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/clipdeck.git
+git clone https://github.com/Pebrix/clipdeck.git
 cd clipdeck
 open clipdeck.xcodeproj
 ```
@@ -103,13 +103,13 @@ Contributions are welcome. Here’s how you can help:
 
 ### Reporting bugs
 
-- Open an [issue](https://github.com/YOUR_USERNAME/clipdeck/issues)
+- Open an [issue](https://github.com/Pebrix/clipdeck/issues)
 - Describe the bug, steps to reproduce, and your macOS version
 - Include screenshots if relevant
 
 ### Suggesting features
 
-- Open an [issue](https://github.com/YOUR_USERNAME/clipdeck/issues) with the `enhancement` label
+- Open an [issue](https://github.com/Pebrix/clipdeck/issues) with the `enhancement` label
 - Describe the feature and why it would be useful
 
 ### Submitting code
