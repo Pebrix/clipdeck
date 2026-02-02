@@ -17,6 +17,10 @@
   <a href="#contributing">Contributing</a>
 </p>
 
+<p align="center">
+  <sub>Requires the latest macOS version</sub>
+</p>
+
 ---
 
 ## Features
@@ -34,6 +38,8 @@
 
 ## Installation
 
+> **Note:** ClipDeck runs on the latest macOS version only. Older macOS versions are not supported.
+
 ### Download
 
 1. Go to the [Releases](https://github.com/YOUR_USERNAME/clipdeck/releases) page
@@ -50,7 +56,7 @@ open clipdeck.xcodeproj
 
 Then in Xcode: **Product → Run** (⌘R)
 
-**Requirements:** Xcode 15+, macOS 13+
+**Requirements:** Latest macOS version only · Xcode 15+
 
 ---
 
